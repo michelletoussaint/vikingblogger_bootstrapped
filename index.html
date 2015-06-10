@@ -1,0 +1,103 @@
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Viking Blog</title>
+<!--     Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<!--     Own CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+<!--     JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!--     Bootstrap Javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<nav id="topnav" class="navbar navbar-default">
+
+    <div class="logo-container">
+      <img class="pull-left" src="http://seeklogo.com/images/V/v-tele-logo-053AACAF21-seeklogo.com.gif">
+      <a class="navbar-brand" href="#">
+        Viking Blogger
+      </a>
+
+      <button type="button" 
+        class="navbar-toggle collapsed" 
+        data-toggle="collapse" 
+        data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <ul class="nav navbar-nav navbar-right nav-links">
+      <li class = "highlighted-btn">
+        <a href="#">Create Post</a>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">V Example_user<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Account</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Sign Out</a></li>
+        </ul>
+      </li>
+    </ul>
+
+  </nav>
+
+  <main>
+    <div class="row">
+      <section id="search-container" class="col-md-8 col-md-offset-2">
+        <form>
+          <div class="col-md-9">
+            <input type="text" class="form-control input-lg" placeholder="Enter your search terms here...">
+          </div>
+          <div class="col-md-3">
+            <input type="submit" class="btn btn-default btn-lg btn-block" value="Search">
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <section class="posts col-md-8 col-md-offset-2">
+
+      <div class="row">
+        <article class="post col-md-10 col-md-offset-1">
+          <header>
+            <h1>
+              Lorem ipsum dolor sit amet
+            </h1>
+            <div class="post-date-wrapper">
+              <time datetime="Fri, 05 Sep 2014 00:40:29 GMT" pubdate>
+                Posted at 9/5/2014 by Example User
+              </time>
+           </div>
+          </header>
+          <div class="post-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <div class="comment-links-wrapper">
+            <div class="view-comments"> View 3 comments</div>
+            <div class="write-comment"> Write a comment</div>
+          </div>
+        </article>
+      </div>
+
+    </section>
+  </main>
+
+
+    
+</body>
+</html>
